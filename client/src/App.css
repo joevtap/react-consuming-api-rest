@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #3a4252;
+    color: #e2e2e2;
+    font-size: 20px;
+}
+
+form input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+form input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+form button {
+    cursor: pointer;
+    border: none;
+    color: #e2e2e2;
+    background-color: #55965e;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    font-size: 20px;
+    transition: background-color 300ms;
+}
+
+form button:hover {
+    background-color: #4dbe5c;
+}
